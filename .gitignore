@@ -13,3 +13,7 @@ Thumbs.db
 desktop.ini
 .vscode/
 *.log
+
+# Build output and dependencies
+dist/
+node_modules/

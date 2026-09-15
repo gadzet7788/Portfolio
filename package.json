@@ -1,0 +1,16 @@
+{
+  "name": "diksha-portfolio",
+  "version": "1.0.0",
+  "description": "Diksha — cinematic portfolio website (static HTML, CSS and vanilla JavaScript).",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "server.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
