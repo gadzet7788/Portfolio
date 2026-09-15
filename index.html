@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diksha — Developer, Marketer, Organizer</title>
+  <meta name="description" content="Diksha helps businesses run smoother and look sharper through modern web development, promotional design, and workflow systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Diksha — Code. Campaigns. Clarity.">
+  <meta property="og:description" content="Web development, digital marketing and workflow systems — one calm, capable partner.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="theme-color" content="#F7F8F6">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Inter+Tight:wght@500;600;700&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.replace('no-js','js');</script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
+  <script src="script.js" defer></script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Diksha","sameAs":["https://github.com/gadzet7788"],"jobTitle":"Web Developer & Digital Marketing Specialist","knowsAbout":["Web Development","Node.js","GitHub","Digital Marketing","Promotional Design","Workflow Optimization","Inventory Systems"]}
+  </script>
+</head>
+<body data-theme="light">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- 00 · PRELOADER -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__word"><span>D</span><span>I</span><span>K</span><span>S</span><span>H</span><span>A</span></div>
+    <div class="preloader__meta">
+      <span class="mono">Loading portfolio</span>
+      <span class="preloader__count mono">000</span>
+    </div>
+    <div class="preloader__bar"><span></span></div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"><em>View</em></span>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" data-magnetic aria-label="Diksha — back to top">
+      <span class="nav__mark">D</span><span class="nav__word">Diksha</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#pillars" data-scramble>Expertise</a>
+      <a href="#services" data-scramble>Services</a>
+      <a href="#work" data-scramble>Work</a>
+      <a href="#story" data-scramble>Story</a>
+    </nav>
+    <a href="#contact" class="btn btn--primary btn--sm nav__cta" data-magnetic><span class="btn__label">Let's talk</span><span class="btn__arrow">→</span></a>
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#pillars"><span class="mono">01</span>Expertise</a>
+      <a href="#services"><span class="mono">02</span>Services</a>
+      <a href="#work"><span class="mono">03</span>Work</a>
+      <a href="#story"><span class="mono">04</span>Story</a>
+      <a href="#contact"><span class="mono">05</span>Contact</a>
+    </nav>
+    <p class="menu__foot mono"><span class="status-dot"></span> Available for new projects</p>
+  </div>
+
+  <main id="main">
+
+    <!-- 01 · HERO -->
+    <section class="hero" id="top" data-theme="light">
+      <div class="grid-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="hero__top container">
+        <p class="label">[ Portfolio — 2026 ]</p>
+        <p class="label hero__role">Developer · Marketer · Organizer</p>
+        <p class="label hero__status"><span class="status-dot"></span> Available for new projects</p>
+      </div>
+
+      <h1 class="hero__title container" aria-label="Code. Campaigns. Clarity.">
+        <span class="hero__line" data-drift="-1"><span class="split" data-split>Code.</span>
+          <a href="#chapter-developer" class="slat" data-slat="developer" aria-label="Jump to The Developer"><span class="slat__scene scene-mini scene-mini--dev"></span><video muted loop playsinline preload="none" data-src="assets/video/developer-mobile.mp4" aria-hidden="true"></video><span class="slat__label mono">01 Build</span></a>
+        </span>
+        <span class="hero__line" data-drift="1">
+          <a href="#chapter-marketer" class="slat" data-slat="marketer" aria-label="Jump to The Marketer"><span class="slat__scene scene-mini scene-mini--mkt"></span><video muted loop playsinline preload="none" data-src="assets/video/marketer-mobile.mp4" aria-hidden="true"></video><span class="slat__label mono">02 Promote</span></a>
+          <span class="split" data-split>Campaigns.</span>
+        </span>
+        <span class="hero__line" data-drift="-1"><em class="split serif" data-split>Clarity.</em><span class="blink" aria-hidden="true"></span>
+          <a href="#chapter-organizer" class="slat" data-slat="organizer" aria-label="Jump to The Organizer"><span class="slat__scene scene-mini scene-mini--org"></span><video muted loop playsinline preload="none" data-src="assets/video/organizer-mobile.mp4" aria-hidden="true"></video><span class="slat__label mono">03 Organize</span></a>
+        </span>
+      </h1>
+
+      <div class="hero__bottom container">
+        <p class="hero__sub reveal">I help businesses run smoother and look sharper through modern web development, standout promotional design, and administrative systems that give teams their time back.</p>
+        <div class="hero__actions reveal">
+          <a href="#contact" class="btn btn--primary" data-magnetic><span class="btn__label">Start a conversation</span><span class="btn__arrow">→</span></a>
+          <a href="#work" class="btn btn--link">See the work</a>
+        </div>
+        <div class="hero__scroll mono" aria-hidden="true"><span>Scroll</span><i></i></div>
+      </div>
+    </section>
+
+    <!-- 02 · STATS -->
+    <section class="stats" data-theme="light" aria-label="Highlights">
+      <div class="stats__grid container">
+        <div class="stat">
+          <p class="stat__num"><span data-count="100">0</span><sup>+</sup></p>
+          <p class="stat__label">Products organized into a digital inventory system</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num"><span data-count="3" data-pad="2">00</span></p>
+          <p class="stat__label">Disciplines, one point of contact</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num"><span data-count="1" data-pad="2">00</span></p>
+          <p class="stat__label">Partner instead of three vendors</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num stat__num--inf" aria-label="Infinite">
+            <svg viewBox="0 0 120 60" aria-hidden="true"><path class="inf-path" d="M60 30c-10-14-22-22-34-22C14 8 6 18 6 30s8 22 20 22c12 0 24-8 34-22s22-22 34-22c12 0 20 10 20 22s-8 22-20 22c-12 0-24-8-34-22z"/></svg>
+          </p>
+          <p class="stat__label">Hours given back to your team</p>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span>Web Development</span><i>✦</i><span>Promotional Design</span><i>✦</i><span>Workflow Systems</span><i>✦</i><span>Technical Support</span><i>✦</i><span>Node.js</span><i>✦</i><span>GitHub</span><i>✦</i><span>Digital Marketing</span><i>✦</i><span>Inventory Architecture</span><i>✦</i>
+          </div>
+          <div class="marquee__group">
+            <span>Web Development</span><i>✦</i><span>Promotional Design</span><i>✦</i><span>Workflow Systems</span><i>✦</i><span>Technical Support</span><i>✦</i><span>Node.js</span><i>✦</i><span>GitHub</span><i>✦</i><span>Digital Marketing</span><i>✦</i><span>Inventory Architecture</span><i>✦</i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 · MISSION -->
+    <section class="mission" id="mission" data-theme="light">
+      <div class="container mission__inner">
+        <p class="label">[ 01 — Why I exist ]</p>
+        <h2 class="mission__title">Technology should feel like a <em class="serif hl">tailwind,</em> not a tangle.</h2>
+        <p class="mission__text" data-words>Most businesses don't need more tools. They need someone who can make the tools work together. I close the gap between technical complexity and everyday efficiency by turning messy workflows into <mark>clear systems,</mark> products into campaigns people notice, and ideas into websites that actually ship. The goal is simple: a business that runs smoothly and <mark>grows confidently.</mark></p>
+      </div>
+    </section>
+
+    <!-- 04 · PILLARS -->
+    <section class="pillars" id="pillars" data-theme="dark" aria-label="Three disciplines">
+      <div class="pillars__intro container">
+        <p class="label">[ 02 — Three acts ]</p>
+        <h2 class="pillars__heading">One partner. <em class="serif">Three</em> disciplines.</h2>
+      </div>
+
+      <article class="chapter" id="chapter-developer" data-chapter="developer">
+        <div class="chapter__sticky">
+          <div class="chapter__frame">
+            <div class="scene scene--dev" aria-hidden="true">
+              <div class="scene__room"></div>
+              <div class="scene__window"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="scene__desk"></div>
+              <div class="monitor monitor--a"><div class="code"><i style="--w:62%"></i><i style="--w:40%;--x:1"></i><i style="--w:74%;--x:1"></i><i style="--w:55%;--x:2"></i><i style="--w:30%;--x:2"></i><i style="--w:68%;--x:1"></i><i style="--w:46%"></i><i style="--w:80%;--x:1"></i><i style="--w:36%;--x:2"></i><i style="--w:58%;--x:1"></i></div></div>
+              <div class="monitor monitor--b"><div class="site"><b></b><b></b><b></b><b></b></div></div>
+              <div class="scene__glow"></div>
+            </div>
+            <img class="chapter__still" data-src="assets/img/still-developer.jpg" alt="" aria-hidden="true" decoding="async">
+            <video class="chapter__video" muted playsinline preload="none" aria-hidden="true"
+                   data-src-desktop="assets/video/developer.mp4" data-src-mobile="assets/video/developer-mobile.mp4"></video>
+            <div class="chapter__shade" aria-hidden="true"></div>
+          </div>
+          <div class="chapter__hud mono" aria-hidden="true"><span>[ 01 / Build ]</span><span class="chapter__time">00:00 / 00:10</span></div>
+          <div class="chapter__content container">
+            <p class="chapter__kicker mono">Web Development &amp; Technical Support</p>
+            <h3 class="chapter__title" aria-label="The Developer"><span class="chapter__the split" data-split>The</span><span class="chapter__role split" data-split>Developer</span></h3>
+            <p class="chapter__body">Websites and web apps that are fast, maintainable, and actually live. I write clean code, manage it properly in Git, and deploy it to modern hosting — then stay on hand when something needs fixing.</p>
+            <ul class="chips" aria-label="Skills">
+              <li class="chip">HTML · CSS · JavaScript</li><li class="chip">Node.js</li><li class="chip">Git &amp; GitHub</li><li class="chip">Deployment &amp; Hosting</li><li class="chip">Technical Support</li>
+            </ul>
+          </div>
+          <div class="chapter__bar" aria-hidden="true"><span></span></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="chapter-marketer" data-chapter="marketer">
+        <div class="chapter__sticky">
+          <div class="chapter__frame">
+            <div class="scene scene--mkt" aria-hidden="true">
+              <div class="scene__table"></div>
+              <div class="swatch swatch--a"></div><div class="swatch swatch--b"></div><div class="swatch swatch--c"></div>
+              <div class="tablet">
+                <div class="poster poster--1"><span class="p-shape"></span><span class="p-product p-buds"></span><span class="p-lines"></span></div>
+                <div class="poster poster--2"><span class="p-shape"></span><span class="p-product p-watch"></span><span class="p-lines"></span></div>
+                <div class="poster poster--3"><span class="p-shape"></span><span class="p-product p-charger"></span><span class="p-lines"></span></div>
+              </div>
+              <div class="stylus"></div>
+              <div class="scene__glow"></div>
+            </div>
+            <img class="chapter__still" data-src="assets/img/still-marketer.jpg" alt="" aria-hidden="true" decoding="async">
+            <video class="chapter__video" muted playsinline preload="none" aria-hidden="true"
+                   data-src-desktop="assets/video/marketer.mp4" data-src-mobile="assets/video/marketer-mobile.mp4"></video>
+            <div class="chapter__shade" aria-hidden="true"></div>
+          </div>
+          <div class="chapter__hud mono" aria-hidden="true"><span>[ 02 / Promote ]</span><span class="chapter__time">00:00 / 00:10</span></div>
+          <div class="chapter__content container">
+            <p class="chapter__kicker mono">Digital Marketing &amp; Promotional Design</p>
+            <h3 class="chapter__title" aria-label="The Marketer"><span class="chapter__the split" data-split>The</span><span class="chapter__role split" data-split>Marketer</span></h3>
+            <p class="chapter__body">Promotional design that makes products hard to scroll past. From wholesale electronics promotions to social campaigns, I design materials that are on-brand, on-message, and built to sell.</p>
+            <ul class="chips" aria-label="Skills">
+              <li class="chip">Product Promotions</li><li class="chip">Social Graphics</li><li class="chip">Campaign Assets</li><li class="chip">Digital Marketing</li>
+            </ul>
+          </div>
+          <div class="chapter__bar" aria-hidden="true"><span></span></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="chapter-organizer" data-chapter="organizer">
+        <div class="chapter__sticky">
+          <div class="chapter__frame">
+            <div class="scene scene--org" aria-hidden="true">
+              <div class="scene__wall"></div>
+              <div class="board">
+                <div class="board__chart">
+                  <span class="node node--top"></span>
+                  <span class="node node--l"></span><span class="node node--m"></span><span class="node node--r"></span>
+                  <svg viewBox="0 0 300 120" preserveAspectRatio="none"><path d="M150 22 V60 M50 60 H250 M50 60 V98 M150 60 V98 M250 60 V98"/></svg>
+                </div>
+                <div class="board__kanban">
+                  <div class="col"><b></b><i></i><i></i><i></i></div>
+                  <div class="col"><b></b><i></i><i class="is-moving"></i></div>
+                  <div class="col"><b></b><i></i><i></i></div>
+                </div>
+                <div class="board__progress"><i style="--v:.82"></i><i style="--v:.56"></i><i style="--v:.94"></i></div>
+              </div>
+              <div class="scene__glass"></div>
+            </div>
+            <img class="chapter__still" data-src="assets/img/still-organizer.jpg" alt="" aria-hidden="true" decoding="async">
+            <video class="chapter__video" muted playsinline preload="none" aria-hidden="true"
+                   data-src-desktop="assets/video/organizer.mp4" data-src-mobile="assets/video/organizer-mobile.mp4"></video>
+            <div class="chapter__shade" aria-hidden="true"></div>
+          </div>
+          <div class="chapter__hud mono" aria-hidden="true"><span>[ 03 / Organize ]</span><span class="chapter__time">00:00 / 00:10</span></div>
+          <div class="chapter__content container">
+            <p class="chapter__kicker mono">Administrative Organization &amp; Workflow Optimization</p>
+            <h3 class="chapter__title" aria-label="The Organizer"><span class="chapter__the split" data-split>The</span><span class="chapter__role split" data-split>Organizer</span></h3>
+            <p class="chapter__body">Systems that give your team its hours back. I turn scattered spreadsheets, inboxes, and inventories into structured workflows that are documented, trackable, and easy to hand over.</p>
+            <ul class="chips" aria-label="Skills">
+              <li class="chip">Inventory Systems</li><li class="chip">Workflow Design</li><li class="chip">Documentation</li><li class="chip">Admin Operations</li>
+            </ul>
+          </div>
+          <div class="chapter__bar" aria-hidden="true"><span></span></div>
+        </div>
+      </article>
+    </section>
+
+    <!-- 05 · SERVICES -->
+    <section class="services" id="services" data-theme="light">
+      <div class="container">
+        <div class="section-head">
+          <p class="label">[ 03 — Services ]</p>
+          <h2 class="section-title">What I take <em class="serif">off your plate.</em></h2>
+        </div>
+        <ul class="svc">
+          <li class="svc__row" data-pillar="Build">
+            <button class="svc__head" aria-expanded="false">
+              <span class="svc__num mono">01</span><span class="svc__title">Web Development</span><span class="svc__tag mono">Build</span><span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><ul><li>Portfolio &amp; business websites</li><li>Landing pages</li><li>Node.js projects</li><li>Git / GitHub setup &amp; version control</li><li>Deployment &amp; hosting configuration</li></ul></div>
+          </li>
+          <li class="svc__row" data-pillar="Build">
+            <button class="svc__head" aria-expanded="false">
+              <span class="svc__num mono">02</span><span class="svc__title">Technical Support</span><span class="svc__tag mono">Build</span><span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><ul><li>Website maintenance &amp; fixes</li><li>Tool &amp; account setup</li><li>Troubleshooting</li><li>Documentation for non-technical teams</li></ul></div>
+          </li>
+          <li class="svc__row" data-pillar="Promote">
+            <button class="svc__head" aria-expanded="false">
+              <span class="svc__num mono">03</span><span class="svc__title">Promotional Design</span><span class="svc__tag mono">Promote</span><span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><ul><li>Product promo graphics</li><li>Catalogue &amp; wholesale sell sheets</li><li>Social media campaign assets</li><li>Brand-consistent templates</li></ul></div>
+          </li>
+          <li class="svc__row" data-pillar="Promote">
+            <button class="svc__head" aria-expanded="false">
+              <span class="svc__num mono">04</span><span class="svc__title">Digital Marketing</span><span class="svc__tag mono">Promote</span><span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><ul><li>Campaign planning</li><li>Content calendars</li><li>Product launch materials</li><li>Performance-minded creative</li></ul></div>
+          </li>
+          <li class="svc__row" data-pillar="Organize">
+            <button class="svc__head" aria-expanded="false">
+              <span class="svc__num mono">05</span><span class="svc__title">Admin &amp; Workflow Systems</span><span class="svc__tag mono">Organize</span><span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><ul><li>Digital inventory architecture</li><li>Spreadsheet &amp; tracker systems</li><li>Process mapping</li><li>Operations organization</li></ul></div>
+          </li>
+        </ul>
+        <div class="svc__cta">
+          <p>Not sure which one you need? That's what the first conversation is for.</p>
+          <a href="#contact" class="btn btn--link">Let's talk →</a>
+        </div>
+      </div>
+      <div class="svc__preview" aria-hidden="true"><span class="svc__preview-glyph"></span><span class="svc__preview-label mono">Build</span></div>
+    </section>
+
+    <!-- 06 · HOW WE WORK -->
+    <section class="engage" id="engage" data-theme="light">
+      <div class="container">
+        <div class="section-head">
+          <p class="label">[ 04 — How we work together ]</p>
+          <h2 class="section-title">Simple to start. <em class="serif">Easy to keep going.</em></h2>
+        </div>
+        <div class="engage__cards">
+          <article class="card" data-tilt>
+            <p class="card__index mono">A</p>
+            <h3 class="card__title">Project</h3>
+            <p class="card__text">A defined build — a website, a campaign asset suite, or an inventory system. Fixed scope, clear timeline.</p>
+            <p class="card__best mono"><span>Best for</span> Launches, rebuilds, one-off systems</p>
+          </article>
+          <article class="card card--featured" data-tilt>
+            <p class="card__index mono">B</p>
+            <h3 class="card__title">Ongoing Support</h3>
+            <p class="card__text">A reliable partner on call for site updates, design requests, and admin tasks — every month.</p>
+            <p class="card__best mono"><span>Best for</span> Growing teams without in-house tech or marketing</p>
+          </article>
+          <article class="card" data-tilt>
+            <p class="card__index mono">C</p>
+            <h3 class="card__title">Consulting</h3>
+            <p class="card__text">A focused session to audit your workflows, tools, or digital presence — and map what to fix first.</p>
+            <p class="card__best mono"><span>Best for</span> Businesses that feel messy but don't know where to start</p>
+          </article>
+        </div>
+        <ol class="process">
+          <li><span class="mono">01</span> Conversation</li>
+          <li><span class="mono">02</span> Plan</li>
+          <li><span class="mono">03</span> Build &amp; Design</li>
+          <li><span class="mono">04</span> Hand-over &amp; Support</li>
+          <i class="process__line" aria-hidden="true"></i>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 07 · WORK -->
+    <section class="work" id="work" data-theme="light">
+      <div class="work__pin">
+        <div class="work__head container">
+          <div>
+            <p class="label">[ 05 — Case studies ]</p>
+            <h2 class="section-title">Selected <em class="serif">work.</em></h2>
+          </div>
+          <p class="work__count mono"><span class="work__current">01</span> / 03</p>
+        </div>
+        <div class="work__track">
+          <article class="case" data-cursor="view">
+            <div class="case__media">
+              <div class="mock mock--promo" aria-hidden="true">
+                <div class="mp mp--1"><span class="p-product p-buds"></span><b>NEW</b></div>
+                <div class="mp mp--2"><span class="p-product p-watch"></span><b>-20%</b></div>
+                <div class="mp mp--3"><span class="p-product p-charger"></span><b>FAST</b></div>
+                <div class="mp mp--4"><span class="p-lines"></span></div>
+              </div>
+            </div>
+            <div class="case__info">
+              <p class="case__meta mono"><span>01</span><span>Promote</span></p>
+              <h3 class="case__title" data-scramble>Wholesale Electronics — Promotional Campaign Suite</h3>
+              <p class="case__text">Designed targeted marketing materials for a wholesale electronics business — product promotions for tech accessories built to catch retailer attention and move inventory.</p>
+              <p class="case__deliver mono">Product promo graphics · Sell sheets · Social assets</p>
+            </div>
+          </article>
+          <article class="case" data-cursor="view">
+            <div class="case__media">
+              <div class="mock mock--table" aria-hidden="true">
+                <div class="mt__bar"><i></i><i></i><i></i><span>inventory / all-products</span></div>
+                <div class="mt__head"><b>SKU</b><b>Product</b><b>Category</b><b>Stock</b><b>Status</b></div>
+                <div class="mt__rows"></div>
+                <div class="mt__foot"><span>Showing 100+ products</span><span class="mt__pill">Synced ✓</span></div>
+              </div>
+            </div>
+            <div class="case__info">
+              <p class="case__meta mono"><span>02</span><span>Organize</span></p>
+              <h3 class="case__title" data-scramble>100+ Product Digital Inventory System</h3>
+              <p class="case__text">Architected a comprehensive digital inventory system covering 100+ products — giving the team one structured, searchable source of truth.</p>
+              <p class="case__deliver mono">Data structure · Categorization · Tracking workflow · Documentation</p>
+            </div>
+          </article>
+          <article class="case" data-cursor="view">
+            <div class="case__media">
+              <div class="mock mock--web" aria-hidden="true">
+                <div class="mw__browser">
+                  <div class="mt__bar"><i></i><i></i><i></i><span>https://your-project.live</span></div>
+                  <div class="mw__page"><b class="mw__hero"></b><b></b><b></b><b></b></div>
+                </div>
+                <div class="mw__term">
+                  <p><span>$</span> git push origin main</p>
+                  <p><span>$</span> npm run build</p>
+                  <p class="ok">✓ Build complete</p>
+                  <p class="ok">✓ Deployed — live in 12s</p>
+                  <p><span>$</span> <i class="caret"></i></p>
+                </div>
+              </div>
+            </div>
+            <div class="case__info">
+              <p class="case__meta mono"><span>03</span><span>Build</span></p>
+              <h3 class="case__title" data-scramble>Custom Web Projects — Built &amp; Deployed</h3>
+              <p class="case__text">Developed and deployed custom web projects using Node.js and GitHub-based workflows on modern hosting environments — from local code to live URL.</p>
+              <p class="case__deliver mono">Development · Version control · Deployment · Hosting setup</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 · STORY -->
+    <section class="story" id="story" data-theme="light">
+      <div class="container">
+        <div class="section-head">
+          <p class="label">[ 06 — Story ]</p>
+          <h2 class="section-title">From the shop floor <em class="serif">to the source code.</em></h2>
+        </div>
+        <div class="story__grid">
+          <div class="story__aside" aria-hidden="true">
+            <div class="story__phase"><div class="story__phase-track"><span>01</span><span>02</span><span>03</span><span>04</span></div></div>
+            <p class="story__phase-label mono">Foundation</p>
+          </div>
+          <ol class="timeline">
+            <i class="timeline__line" aria-hidden="true"><b></b></i>
+            <li class="tl" data-label="Foundation">
+              <span class="tl__dot" aria-hidden="true"></span>
+              <p class="tl__kicker mono">Foundation</p>
+              <h3 class="tl__title">Diploma in Computer Information Systems</h3>
+              <p class="tl__text">I started where the logic lives — databases, systems, networks, and code. It gave me the technical backbone for everything that followed.</p>
+            </li>
+            <li class="tl" data-label="Leadership">
+              <span class="tl__dot" aria-hidden="true"></span>
+              <p class="tl__kicker mono">Leadership</p>
+              <h3 class="tl__title">Retail Supervisor</h3>
+              <p class="tl__text">On the floor, I learned what no textbook teaches: how to lead a team, calm a frustrated customer, and keep an operation running when everything happens at once.</p>
+            </li>
+            <li class="tl" data-label="Transition">
+              <span class="tl__dot" aria-hidden="true"></span>
+              <p class="tl__kicker mono">Transition</p>
+              <h3 class="tl__title">Remote Digital Marketing &amp; Technical Administration</h3>
+              <p class="tl__text">I brought those two worlds together remotely — designing promotional materials for wholesale electronics, building inventory systems for 100+ products, and keeping digital operations organized.</p>
+            </li>
+            <li class="tl" data-label="Now">
+              <span class="tl__dot" aria-hidden="true"></span>
+              <p class="tl__kicker mono">Now</p>
+              <h3 class="tl__title">Developer, Marketer, Organizer</h3>
+              <p class="tl__text">Today I combine web development with Node.js and GitHub, product marketing design, and workflow optimization — giving businesses one partner who understands the whole picture.</p>
+            </li>
+          </ol>
+        </div>
+        <blockquote class="story__quote">
+          <p>“I speak both languages — <em class="serif">technical and human.</em> That's the gap I close.”</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- 09 · CTA -->
+    <section class="cta" id="contact" data-theme="dark">
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="container cta__inner">
+        <p class="label">[ 07 — Let's talk ]</p>
+        <h2 class="cta__title" aria-label="Let's make it run smoother.">
+          <span class="split" data-split>Let's make it run</span>
+          <span><em class="split serif" data-split>smoother.</em><span class="blink" aria-hidden="true"></span></span>
+        </h2>
+        <div class="cta__grid">
+          <div class="cta__intro">
+            <p class="cta__sub">Have a website to build, a product to promote, or a workflow that needs untangling? Tell me what's slowing you down — and let's fix it together.</p>
+            <ul class="cta__points" aria-label="I can help with">
+              <li>Collaborations</li><li>Admin consulting</li><li>Technical support</li>
+            </ul>
+            <p class="cta__social mono"><a href="https://github.com/gadzet7788" target="_blank" rel="noopener" data-social="github">GitHub ↗</a></p>
+          </div>
+
+          <form class="form" id="contact-form" aria-label="Contact form">
+            <div class="form__row">
+              <label class="field">
+                <span class="field__label mono">Your name</span>
+                <input name="name" type="text" autocomplete="name" required maxlength="80">
+              </label>
+              <label class="field">
+                <span class="field__label mono">Your email</span>
+                <input name="email" type="email" autocomplete="email" required maxlength="120">
+              </label>
+            </div>
+            <fieldset class="field">
+              <legend class="field__label mono">I need help with</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="topic" value="Web development"><span>Web development</span></label>
+                <label class="choice"><input type="radio" name="topic" value="Marketing &amp; design"><span>Marketing &amp; design</span></label>
+                <label class="choice"><input type="radio" name="topic" value="Admin &amp; workflows"><span>Admin &amp; workflows</span></label>
+                <label class="choice"><input type="radio" name="topic" value="Not sure yet"><span>Not sure yet</span></label>
+              </div>
+            </fieldset>
+            <label class="field">
+              <span class="field__label mono">Tell me about your project</span>
+              <textarea name="message" rows="4" required maxlength="3000"></textarea>
+            </label>
+            <input class="visually-hidden" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form__foot">
+              <button type="submit" class="btn btn--primary btn--lg" data-magnetic><span class="btn__label">Send message</span><span class="btn__arrow">→</span></button>
+              <p class="form__status" role="status" aria-live="polite"></p>
+            </div>
+            <noscript><p class="form__status">This form needs JavaScript. You can also reach me on GitHub.</p></noscript>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 10 · FOOTER -->
+  <footer class="footer" data-theme="dark">
+    <div class="container">
+      <div class="footer__cols">
+        <div>
+          <p class="label">Navigate</p>
+          <ul><li><a href="#pillars">Expertise</a></li><li><a href="#services">Services</a></li><li><a href="#work">Work</a></li><li><a href="#story">Story</a></li><li><a href="#contact">Contact</a></li></ul>
+        </div>
+        <div>
+          <p class="label">Connect</p>
+          <ul><li><a href="#contact">Send a message</a></li><li><a href="https://github.com/gadzet7788" target="_blank" rel="noopener" data-social="github">GitHub</a></li></ul>
+        </div>
+        <div>
+          <p class="label">Status</p>
+          <p class="footer__status"><span class="status-dot"></span> Available for new projects</p>
+          <p class="footer__time mono">Local time <span data-clock>--:--</span></p>
+        </div>
+      </div>
+      <p class="footer__word" aria-hidden="true">DIKSHA</p>
+      <div class="footer__bottom mono">
+        <span>© 2026 Diksha. Built by hand with HTML, CSS &amp; JavaScript.</span>
+        <a href="#top" class="footer__top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

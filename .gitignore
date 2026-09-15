@@ -1,0 +1,15 @@
+# Personal reference photo used only for AI generation — not part of the website
+Media/
+
+# Raw video masters (encoded copies go in assets/video/)
+source-video/
+
+# Local editor / Claude Code settings (launch.json points to a machine-specific path)
+.claude/
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.log
